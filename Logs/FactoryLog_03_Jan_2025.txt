@@ -1,0 +1,7 @@
+﻿2025-01-03 11:13:46:1145 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-03 11:14:10:6062 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-03 11:14:31:4377 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-03 11:27:41:9065 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-03 11:27:51:9071 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-03 18:08:40:3842 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-03 18:08:45:0363 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.

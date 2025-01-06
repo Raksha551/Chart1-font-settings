@@ -1,0 +1,12 @@
+﻿2024-12-27 14:11:07:0830 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 14:11:28:8248 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 14:11:43:8586 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 14:11:50:4881 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 14:12:13:4955 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 14:12:32:9081 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 14:12:45:6061 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 14:13:08:5542 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 14:13:40:6589 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 14:14:38:4638 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 15:54:46:6571 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2024-12-27 15:54:57:6226 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
