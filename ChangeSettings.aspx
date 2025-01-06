@@ -6,72 +6,101 @@
 <head runat="server">
     <title></title>
     <style>
+        body{
+            justify-content:center;
+        }
         label {
             font-size: 20px;
+            
         }
+        .div{
+            padding:20px;
+         
+            border :1px double black;
+            justify-self:center;
+            font-size:24px;
+            font-weight:bold;
+            background-color:burlywood;
+            margin-top:20px;
+                border-radius: 30px;
+        }
+        .div > div{
+            padding:10px;
+              width:550px;
+              display:flex;
+        }
+        .textbox{
+          
+            height:25px;
+            border-radius:10px;
+            font-size:18px;
+           
+        }
+       
     </style>
 </head>
 
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div style="text-align:center;"> <strong  style="font-size:38px; text-decoration:underline; text-align:center;">Change Font Size</strong></div>
+       
+        <div class="div">
             <div>
-                <label>Set font size of top left chart heading</label>
-                <asp:TextBox runat="server" ID="leftchartHeading"></asp:TextBox>
+                <label>Top left chart heading :</label>
+                <asp:TextBox CssClass="textbox" runat="server" ID="leftchartHeading" style=" margin-left:18%" ></asp:TextBox>
             </div>
             <div>
-                <label>Set font size of top right chart side heading</label>
-                <asp:TextBox runat="server" ID="rightchartHeading"></asp:TextBox>
+                <label> Top right chart side heading :</label>
+                <asp:TextBox runat="server" CssClass="textbox" ID="rightchartHeading" style=" margin-left:8.5%" ></asp:TextBox>
             </div>
 
             <div>
-                <label>Set font size of bottom chart heading</label>
-                <asp:TextBox runat="server" ID="bottomchartHeading"></asp:TextBox>
+                <label>Bottom chart heading :</label>
+                <asp:TextBox runat="server" CssClass="textbox" ID="bottomchartHeading" style=" margin-left:18.5%" ></asp:TextBox>
             </div>
-            <hr />
+          
             <div>
-                <label>Set font size of range Name</label>
-                <asp:TextBox runat="server" ID="rangename"></asp:TextBox>
+                <label>Range Name :</label>
+                <asp:TextBox runat="server" CssClass="textbox" ID="rangename" style=" margin-left:32.9%" ></asp:TextBox>
             </div>
            
                
 
             <div>
-                <label>Set font size of range data</label>
-                <asp:TextBox runat="server" ID="rangedata"></asp:TextBox>
+                <label>Range data :</label>
+                <asp:TextBox runat="server" CssClass="textbox" ID="rangedata" style=" margin-left:35.2%"></asp:TextBox>
             </div>
             <div>
-               
-            <hr />
-
-            <div>
-                <label>Set font size of X-axis values</label>
-                <asp:TextBox runat="server" ID="Xaxisdata"></asp:TextBox>
+                <label>X-axis values :</label>
+                <asp:TextBox runat="server" CssClass="textbox" ID="Xaxisdata" style=" margin-left:32.4%" ></asp:TextBox>
             </div>
             <div>
-                <label>Set font size of Y-axis values</label>
-                <asp:TextBox runat="server" ID="Yaxisdata"></asp:TextBox>
+                <label>Y-axis values :</label>
+                <asp:TextBox runat="server" CssClass="textbox" ID="Yaxisdata" style=" margin-left:32.5%"></asp:TextBox>
             </div>
             <div>
-                <label>Set font size of datalabels of bar chart</label>
-                <asp:TextBox runat="server" ID="Bardatalabels"></asp:TextBox>
+                <label>Datalabels of bar chart :</label>
+                <asp:TextBox runat="server" CssClass="textbox" ID="Bardatalabels" style=" margin-left:17.4%"></asp:TextBox>
             </div>
-            <hr />
+         
                  <div>
-     <label>Set font size of top right chart headers</label>
-     <asp:TextBox runat="server" ID="rightHeaders"></asp:TextBox>
+     <label>Top right chart headers :</label>
+     <asp:TextBox runat="server" ID="rightHeaders" CssClass="textbox" style=" margin-left:16.8%" ></asp:TextBox>
  </div>
                                 <div>
-    <label>Set font size of left chart center values</label>
-    <asp:TextBox runat="server" ID="leftcenter"></asp:TextBox>
+    <label>Left chart center values :</label>
+    <asp:TextBox runat="server" ID="leftcenter" CssClass="textbox" style=" margin-left:16.8%" ></asp:TextBox>
 </div>
                                 <div>
-    <label>Set font size of right center values</label>
-    <asp:TextBox runat="server" ID="rightcenter"></asp:TextBox>
+    <label>Right center values :</label>
+    <asp:TextBox runat="server" ID="rightcenter" CssClass="textbox" style=" margin-left:23.2%" ></asp:TextBox>
 </div>
-                <asp:Button runat="server" ID="submitbtn" Text="Save" style="height:40px; width:60px; color:white; background-color:forestgreen;" OnClick="OnButtonCLick_SaveChangesToDB"/>
-                <asp:Button runat="server" ID="Updatebtn" Text="View Updated Screen" Style="height: 40px; width: 150px; color: white; background-color: forestgreen;" OnClick="Updatebtn_Click" />
-        </div>
+            <div style="justify-content: center;">
+                        <asp:Button runat="server" ID="submitbtn" Text="Save" style="height:50px; width:70px; color:white; border-radius:10px;margin-right:20px; font-size:22px; background-color:forestgreen;" OnClick="OnButtonCLick_SaveChangesToDB"/>
+        <asp:Button runat="server" ID="Updatebtn" Text="View Updated Screen" Style="height: 50px; width: 250px;  border-radius:10px; font-size:22px; color: white; background-color: forestgreen;" OnClick="Updatebtn_Click" />
+</div>
+            </div>
+              
     </form>
 </body>
 </html>
