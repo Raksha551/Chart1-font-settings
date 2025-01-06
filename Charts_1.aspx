@@ -5,8 +5,6 @@
 <head runat="server">
     <title>Bar Race Highchart</title>
     <!-- Include Highcharts Library -->
-   
-
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/highcharts-more.js"></script>
     <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
@@ -173,7 +171,7 @@
         .range {
             width: 500px;
             margin-top: 80px;
-            margin-right: 10px;
+            margin-right: 30px;
         }
 
         #container1 {
@@ -196,7 +194,7 @@
         }
 
         .availdata {
-            padding-left: 270px;
+            padding-left: 265px;
         }
 
         .perform, .performdata {
@@ -204,7 +202,7 @@
         }
 
         .performdata {
-            padding-left: 270px;
+            padding-left: 260px;
         }
 
         .quality, .qualitydata {
@@ -212,7 +210,7 @@
         }
 
         .qualitydata {
-            padding-left: 300px;
+            padding-left: 295px;
         }
 
         .name, .perform, .quality {
@@ -254,7 +252,6 @@
             overflow: hidden;
             position: relative;
         }
-
 
         .footer-right img {
             height: 50px;
@@ -317,8 +314,6 @@
                 </div>
                 <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="./Images/settings.png"
                     OnClick="ImageButton1_Click" class="header-settings-icon" />
-
-
             </div>
             <img src=".\Images\AmiTLogo.jpg" class="header-right" alt="Left Icon" />
         </div>
@@ -480,7 +475,6 @@
                                     borderRadius:'10px'// Ensure series matches pane's outer radius
                                 }]
                             });
-
                             //Highcharts.chart('container1', {
                             //    chart: {
                             //        type: 'pie',
@@ -581,8 +575,6 @@
                             //        }]
                             //    }]
                             //});
-
-
                             Highcharts.chart('container21', {
                                 chart: {
                                     type: 'solidgauge',
@@ -606,7 +598,6 @@
                                                         })
                                                         .add();
                                             }
-
                                             const x = (chart.plotWidth / 2) + 10,
                                                 y = chart.plotHeight / 2 + chart.plotTop -
                                                     (customLabel.attr('height') / 2);
@@ -636,7 +627,6 @@
                                     enabled: true,
                                     formatter: function () {
                                         return `<strong>CNC:</strong> ${this.y.toFixed(2)}%`;
-
                                     }
                                 },
                                 yAxis: {
@@ -672,8 +662,7 @@
                                     borderRadius: '10px'// Ensure series matches pane's outer radius
                                 }]
                             });
-
-                            Highcharts.chart('container22', {
+                             Highcharts.chart('container22', {
                                 chart: {
                                     type: 'solidgauge',
                                     spacingTop: 0,    // Remove extra space above the chart
@@ -696,11 +685,9 @@
                                                         })
                                                         .add();
                                             }
-
                                             const x = (chart.plotWidth / 2) + 10,
                                                 y = chart.plotHeight / 2 + chart.plotTop -
                                                     (customLabel.attr('height') / 2);
-
                                             customLabel.attr({
                                                 x,
                                                 y
@@ -726,7 +713,6 @@
                                     enabled: true,
                                     formatter: function () {
                                         return `<strong>HMC:</strong> ${this.y.toFixed(2)}%`;
-
                                     }
                                 },
                                 yAxis: {
@@ -762,7 +748,6 @@
                                     borderRadius: '10px'// Ensure series matches pane's outer radius
                                 }]
                             });
-
                             Highcharts.chart('container23', {
                                 chart: {
                                     type: 'solidgauge',
@@ -852,7 +837,6 @@
                                     borderRadius: '10px'// Ensure series matches pane's outer radius
                                 }]
                             });                          
-
                             Highcharts.chart('container', {
                                 chart: {
                                     type: 'column'
@@ -957,9 +941,6 @@
     </form>
 </body>
 </html>
-
-
-
 
 
 <%-- Highcharts.chart('barRaceChart', {

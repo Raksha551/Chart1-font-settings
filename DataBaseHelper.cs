@@ -63,6 +63,7 @@ namespace Practice_Tasks
             }
         }
 
+        #region add Or Update Data To DB
         public void addOrUpdateDataToDB(string LeftChartHeading, string RightChartHeading, string BottomChartHeading,
       string Rangename, string Rangedata, string xAxis, string yAxis,
       string Datalabels, string RightHeaders, string LeftCenterdata, string RightCenterdata)
@@ -161,7 +162,9 @@ namespace Practice_Tasks
             }
 
         }
+        #endregion
 
+        #region GetChartSettingsAsDataTable
         public DataTable GetChartSettingsAsDataTable()
         {
             DataTable dt = new DataTable();
@@ -186,10 +189,7 @@ namespace Practice_Tasks
 
             return dt;
         }
-
-
-
-
+        #endregion
 
     }
 }
