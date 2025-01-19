@@ -12,6 +12,7 @@ using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using System.Web.Script.Services;
 using System.Web.Services;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace Practice_Tasks
 {
@@ -29,7 +30,7 @@ namespace Practice_Tasks
                     addRangevalues();
                     addDonutChartValues();
                     addBarChartValues();
-                    ChangeFrontEndSize();
+                    //ChangeFrontEndSize();
                     double oeeValue = 24.21;
                     double remainingValue = 100 - oeeValue;
 
@@ -178,30 +179,31 @@ namespace Practice_Tasks
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public static DataBaseHelper.ChangeFontSize ChangeFrontEndSize()
         {
+            try
+            {
 
-           
                 DataTable dt = new DataBaseHelper().GetChartSettingsAsDataTable();
                 DataRow row = dt.Rows[0];
-
-
-
-                    //System.Diagnostics.Debug.WriteLine("LeftChartHeading: " + (row["LeftChartHeading"] ?? "NULL"));
-                    //System.Diagnostics.Debug.WriteLine("RightChartHeading: " + (row["RightChartHeading"] ?? "NULL"));
-                   return new DataBaseHelper.ChangeFontSize
-                    {
-                        LeftChartHeading =(row["LeftChartHeading"] == DBNull.Value || string.IsNullOrEmpty(row["LeftChartHeading"] as string)) ? "20" : row["LeftChartHeading"] as string,
-                        RightChartHeading = row["RightChartHeading"] == DBNull.Value || string.IsNullOrEmpty(row["RightChartHeading"] as string) ? "18" : row["RightChartHeading"] as string,
-                        BottomChartHeading = row["BottomChartHeading"] == DBNull.Value || string.IsNullOrEmpty(row["BottomChartHeading"] as string) ? "18" : row["BottomChartHeading"] as string,          
-                        Rangename = row["Rangename"] == DBNull.Value || string.IsNullOrEmpty(row["Rangename"] as string) ? "18" : row["Rangename"] as string,
-                        Rangedata = row["Rangedata"] == DBNull.Value || string.IsNullOrEmpty(row["Rangedata"] as string) ? "18" : row["Rangedata"] as string,
-                        xAxis = row["xAxis"] == DBNull.Value || string.IsNullOrEmpty(row["xAxis"] as string) ? "12" : row["xAxis"] as string,
-                        yAxis = row["yAxis"] == DBNull.Value || string.IsNullOrEmpty(row["yAxis"] as string) ? "12" : row["yAxis"] as string,
-                        Datalabels = row["Datalabels"] == DBNull.Value || string.IsNullOrEmpty(row["Datalabels"] as string) ? "18" : row["Datalabels"] as string,
-                        RightHeaders = row["RightHeaders"] == DBNull.Value || string.IsNullOrEmpty(row["RightHeaders"] as string) ? "18" : row["RightHeaders"] as string,
-                        LeftCenterdata = row["LeftCenterdata"] == DBNull.Value || string.IsNullOrEmpty(row["LeftCenterdata"] as string) ? "18" : row["LeftCenterdata"] as string,
-                        RightCenterdata = row["RightCenterdata"] == DBNull.Value || string.IsNullOrEmpty(row["RightCenterdata"] as string) ? "18" : row["RightCenterdata"] as string,
-                    };
-          
+                return new DataBaseHelper.ChangeFontSize
+                {
+                    LeftChartHeading = (row["LeftChartHeading"] == DBNull.Value || string.IsNullOrEmpty(row["LeftChartHeading"] as string)) ? "20" : row["LeftChartHeading"] as string,
+                    RightChartHeading = row["RightChartHeading"] == DBNull.Value || string.IsNullOrEmpty(row["RightChartHeading"] as string) ? "18" : row["RightChartHeading"] as string,
+                    BottomChartHeading = row["BottomChartHeading"] == DBNull.Value || string.IsNullOrEmpty(row["BottomChartHeading"] as string) ? "18" : row["BottomChartHeading"] as string,
+                    Rangename = row["Rangename"] == DBNull.Value || string.IsNullOrEmpty(row["Rangename"] as string) ? "18" : row["Rangename"] as string,
+                    Rangedata = row["Rangedata"] == DBNull.Value || string.IsNullOrEmpty(row["Rangedata"] as string) ? "18" : row["Rangedata"] as string,
+                    xAxis = row["xAxis"] == DBNull.Value || string.IsNullOrEmpty(row["xAxis"] as string) ? "12" : row["xAxis"] as string,
+                    yAxis = row["yAxis"] == DBNull.Value || string.IsNullOrEmpty(row["yAxis"] as string) ? "12" : row["yAxis"] as string,
+                    Datalabels = row["Datalabels"] == DBNull.Value || string.IsNullOrEmpty(row["Datalabels"] as string) ? "18" : row["Datalabels"] as string,
+                    RightHeaders = row["RightHeaders"] == DBNull.Value || string.IsNullOrEmpty(row["RightHeaders"] as string) ? "18" : row["RightHeaders"] as string,
+                    LeftCenterdata = row["LeftCenterdata"] == DBNull.Value || string.IsNullOrEmpty(row["LeftCenterdata"] as string) ? "18" : row["LeftCenterdata"] as string,
+                    RightCenterdata = row["RightCenterdata"] == DBNull.Value || string.IsNullOrEmpty(row["RightCenterdata"] as string) ? "18" : row["RightCenterdata"] as string,
+                };
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteErrorLog("ChangeFrontEndSize : " + ex.Message);
+                return null;
+            }          
             // Return an empty JSON object if no data
         }        
     }
