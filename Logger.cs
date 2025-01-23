@@ -7,7 +7,11 @@ using System.Text;
 using System.Threading;
 using System.Web;
 
+<<<<<<< HEAD
 namespace Evaluation2_Screens
+=======
+namespace Practice_Tasks
+>>>>>>> fe3e602f6beec712cc6209a88a08d2d9bb6d327a
 {
     public class Logger
     {

@@ -1,0 +1,4 @@
+﻿2024-12-25 23:03:24:4983 : EXCEPTION - ChangeFrontEndSize: Column ' RightCenterdata ' does not belong to table .
+2024-12-25 23:11:59:2150 : EXCEPTION - ChangeFrontEndSize: Column ' RightCenterdata ' does not belong to table .
+2024-12-25 23:27:24:1105 : EXCEPTION - ChangeFrontEndSize: Column ' RightCenterdata ' does not belong to table .
+2024-12-25 23:28:13:9843 : EXCEPTION - ChangeFrontEndSize: Column ' RightCenterdata ' does not belong to table .

@@ -5,12 +5,21 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
+<<<<<<< HEAD
 [assembly: AssemblyTitle("Task1_Black_Screen")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Task1_Black_Screen")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
+=======
+[assembly: AssemblyTitle("Practice_Tasks")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Practice_Tasks")]
+[assembly: AssemblyCopyright("Copyright ©  2024")]
+>>>>>>> fe3e602f6beec712cc6209a88a08d2d9bb6d327a
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +29,11 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
+<<<<<<< HEAD
 [assembly: Guid("75ed664b-36ca-4d71-9794-cb45534e969b")]
+=======
+[assembly: Guid("a6193111-7740-4fa3-a8c2-0b37af934381")]
+>>>>>>> fe3e602f6beec712cc6209a88a08d2d9bb6d327a
 
 // Version information for an assembly consists of the following four values:
 //

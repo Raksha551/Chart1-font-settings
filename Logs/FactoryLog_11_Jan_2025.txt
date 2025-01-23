@@ -1,0 +1,2 @@
+﻿2025-01-11 17:06:40:9906 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-11 17:06:45:8409 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
