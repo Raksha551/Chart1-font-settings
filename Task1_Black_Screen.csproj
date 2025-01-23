@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BlackScreen.aspx" />
+    <Content Include="ChangeVisibility.aspx" />
     <Content Include="Images\AmitLogo-Transparent.png" />
     <Content Include="Images\AmiTLogo.jpg" />
     <Content Include="Images\calendar.png" />
@@ -75,7 +76,7 @@
     <Content Include="Images\electricity.png" />
     <Content Include="Images\gear.png" />
     <Content Include="Images\reliability.png" />
-    <Content Include="Images\settings %284%29.png" />
+    <Content Include="Images\settings.png" />
     <Content Include="Images\speedometer.png" />
     <Content Include="Images\stopwatch.png" />
     <Content Include="Web.config" />
@@ -87,6 +88,13 @@
     </Compile>
     <Compile Include="BlackScreen.aspx.designer.cs">
       <DependentUpon>BlackScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeVisibility.aspx.cs">
+      <DependentUpon>ChangeVisibility.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangeVisibility.aspx.designer.cs">
+      <DependentUpon>ChangeVisibility.aspx</DependentUpon>
     </Compile>
     <Compile Include="DataBaseHelper.cs" />
     <Compile Include="Logger.cs" />

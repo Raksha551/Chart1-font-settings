@@ -5,8 +5,10 @@ using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
+using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using System.Xml.Linq;
+using static Task1_Black_Screen.DataBaseHelper;
 
 
 namespace Task1_Black_Screen
@@ -15,6 +17,7 @@ namespace Task1_Black_Screen
     {
         DataBaseHelper dbhelper = new DataBaseHelper();
         private static List<DataBaseHelper.ColumnNames_DB> list = new List<DataBaseHelper.ColumnNames_DB>();
+        private static List<DataBaseHelper.ColumnNames_DB> list1 = new List<DataBaseHelper.ColumnNames_DB>();
         private static int currentIndex = 0;
         //private const int batchSize = 4;
         protected void Page_Load(object sender, EventArgs e)
@@ -24,7 +27,7 @@ namespace Task1_Black_Screen
                 try
                 {
                     BindData();
-
+                    bindVisibility();
                     if (list.Count > 0)
                     {
                         BindRow(currentIndex); // Displays first row of DB
@@ -64,6 +67,7 @@ namespace Task1_Black_Screen
                         data.targetcolor = Convert.ToDouble(dt.Rows[i]["DayTarget"]) >= 50 || Convert.ToDouble(dt.Rows[i]["DayTarget"]) >= 50 ? "color: green;" : "";
                         data.statuscolor = String.IsNullOrEmpty(dt.Rows[i]["HelpReqStatus"].ToString()) ? "color: green; padding-top:30px;" : "color: orange;";
                         list.Add(data);
+                        
                     }
                     //listview1.DataSource = list;
                     //listview1.DataBind();
@@ -74,13 +78,137 @@ namespace Task1_Black_Screen
                 Logger.WriteErrorLog($"BindData Error: {ex.Message}");
             }
         }
+        public void bindVisibility()
+        {
+            try
+            {
+                DataTable dtvisible = dbhelper.selectDataFromDB();
+                if (dtvisible != null && dtvisible.Rows.Count > 0)
+                {
+                    for (int i = 0; i < dtvisible.Rows.Count; i++)
+                    {
+                        string valueInText = dtvisible.Rows[i]["ValueInText"].ToString();
+                        string valueInBool = dtvisible.Rows[i]["ValueInBool"].ToString();
+                        switch (valueInText)
+                        {
+                            case "RunningStatus":
+                                if (valueInBool == "0")
+                                    statusTitle.Style["display"] = "none";
+                                break;
+                            case "CurrentShift":
+                                if (valueInBool == "0")
+                                    shiftTitle.Style["display"] = "none";
+                                break;
+                            case "CurrentDay":
+                                if (valueInBool == "0")
+                                    dayOutputTitle.Style["display"] = "none";
+                                break;
+                            case "MonthToDate":
+                                if (valueInBool == "0")
+                                    MonthtoDateTitle.Style["display"] = "none";
+                                break;
+                            case "OEE":
+                                if (valueInBool == "0")
+                                    OEETitle.Style["display"] = "none";
+                                break;
+                            case "Power":
+                                if (valueInBool == "0")
+                                    PowerTitle.Style["display"] = "none";
+                                break;
+                            case "IdleTime":
+                                if (valueInBool == "0")
+                                    IdleTitle.Style["display"] = "none";
+                                break;
+                            case "Rejection":
+                                if (valueInBool == "0")
+                                    RejectionTitle.Style["display"] = "none";
+                                break;
+                            case "DownTimeReason":
+                                if (valueInBool == "0")
+                                    downtimeTitle.Style["display"] = "none";
+                                break;
+                            default:
+                                Console.WriteLine($"Unrecognized ValueInText: {valueInText}");
+                                break;
+                        }
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                Logger.WriteErrorLog($"bindVisibility Error: {ex.Message}");
+            }
+           
+        }
+        protected void listview1_ItemDataBound(object sender, ListViewItemEventArgs e)
+        {
+            try
+            {
+                if (e.Item.ItemType == ListViewItemType.DataItem)
+                {
+                    DataTable dtv = dbhelper.selectDataFromDB();
+                    foreach (DataRow row in dtv.Rows)
+                    {
+                        string valueInText = row["ValueInText"].ToString();
+                        string valueInBool = row["ValueInBool"].ToString();
+
+                        switch (valueInText)
+                        {
+                            case "RunningStatus":
+                                var statusValue = (HtmlTableCell)e.Item.FindControl("statusValue");
+                                statusValue.Visible = valueInBool == "1";
+                                break;
+                            case "CurrentShift":
+                                var shiftValue = (HtmlTableCell)e.Item.FindControl("shiftValue");
+                                shiftValue.Visible = valueInBool == "1";
+                                break;
+                            case "CurrentDay":
+                                var dayValue = (HtmlTableCell)e.Item.FindControl("dayValue");
+                                dayValue.Visible = valueInBool == "1";
+                                break;
+                            case "MonthToDate":
+                                var monthValue = (HtmlTableCell)e.Item.FindControl("monthValue");
+                                monthValue.Visible = valueInBool == "1";
+                                break;
+                            case "OEE":
+                                var oeeeValue = (HtmlTableCell)e.Item.FindControl("oeeeValue");
+                                oeeeValue.Visible = valueInBool == "1";
+                                break;
+                            case "Power":
+                                var powerValue = (HtmlTableCell)e.Item.FindControl("powerValue");
+                                powerValue.Visible = valueInBool == "1";
+                                break;
+                            case "IdleTime":
+                                var idleValue = (HtmlTableCell)e.Item.FindControl("idleValue");
+                                idleValue.Visible = valueInBool == "1";
+                                break;
+                            case "Rejection":
+                                var rejectValue = (HtmlTableCell)e.Item.FindControl("rejectValue");
+                                rejectValue.Visible = valueInBool == "1";
+                                break;
+                            case "DownTimeReason":
+                                var downtimeValue = (HtmlTableCell)e.Item.FindControl("downtimeValue");
+                                downtimeValue.Visible = valueInBool == "1";
+                                break;
+                            default:
+                                Console.WriteLine($"Unrecognized ValueInText: {valueInText}");
+                                break;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteErrorLog($"listview1_ItemDataBound Error: {ex.Message}");
+            }           
+        }
 
         private void BindRow(int index)
         {
             try
             {
                 if (list == null || index >= list.Count) return;
-
+                bindVisibility();
                // var start = DateTime.Now;
                // System.Diagnostics.Debug.WriteLine($"BindRow Start: Index={index}");
                 var singleRowList = new List<DataBaseHelper.ColumnNames_DB> { list[index] };
@@ -113,6 +241,18 @@ namespace Task1_Black_Screen
                 Logger.WriteErrorLog($"Timer1_Tick Error: {ex.Message}");
             }
         }
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            try
+            {
+                Response.Redirect("ChangeVisibility.aspx");
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteErrorLog("ImageButton1_Click : " + ex.Message);
+            }
+        }
+
     }
 }
 

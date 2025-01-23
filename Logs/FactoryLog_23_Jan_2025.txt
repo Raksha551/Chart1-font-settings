@@ -1,0 +1,248 @@
+﻿2025-01-23 10:25:57:0861 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:26:01:5139 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:26:07:5047 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:26:12:5240 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:26:18:5137 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:26:23:5145 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:26:29:5104 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:26:52:1678 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:26:57:1731 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:27:02:5078 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:27:07:5156 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:27:12:5196 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:27:18:5158 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:27:24:5191 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:27:30:5102 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:27:36:5048 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:27:41:5196 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:27:47:5031 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:27:52:5100 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:28:11:5106 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:29:11:5074 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 10:30:11:5188 : EXCEPTION - BindRow Error: DataBinding: 'Task1_Black_Screen.DataBaseHelper+ColumnNames_DB' does not contain a property with the name 'machineidValue'.
+2025-01-23 11:02:13:0221 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:02:18:4226 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:02:23:4125 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:02:28:9464 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:02:34:1873 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:02:39:1860 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:02:44:1976 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:02:51:3380 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:02:57:2149 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:03:1882 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:09:1898 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:14:2020 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:20:1775 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:25:1879 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:30:2012 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:36:1893 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:42:1890 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:47:1903 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:52:1915 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:03:58:1857 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:04:03:1961 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:04:08:1904 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:04:14:1831 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:04:40:0729 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:04:45:1808 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:04:50:1948 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:04:56:1873 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:02:1895 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:08:1909 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:13:2089 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:19:1999 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:25:1876 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:30:2007 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:36:1908 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:41:2064 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:47:1881 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:52:1916 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:05:56:4995 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:06:02:1824 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:06:08:1878 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 11:07:46:9742 : EXCEPTION - BindRow Error: Specified cast is not valid.
+2025-01-23 11:07:53:1917 : EXCEPTION - BindRow Error: Specified cast is not valid.
+2025-01-23 11:07:59:2001 : EXCEPTION - BindRow Error: Specified cast is not valid.
+2025-01-23 11:08:05:2131 : EXCEPTION - BindRow Error: Specified cast is not valid.
+2025-01-23 11:08:11:2068 : EXCEPTION - BindRow Error: Specified cast is not valid.
+2025-01-23 12:01:08:3748 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 12:01:58:6027 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 12:04:19:7713 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 12:05:54:1744 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 12:07:35:5354 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 13:10:51:8456 : EXCEPTION - BindData Error: Specified cast is not valid.
+2025-01-23 13:10:59:8055 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 13:11:05:2784 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 13:11:08:0905 : EXCEPTION - BindData Error: Specified cast is not valid.
+2025-01-23 13:11:14:8592 : EXCEPTION - BindData Error: Specified cast is not valid.
+2025-01-23 13:11:17:8002 : EXCEPTION - BindData Error: Specified cast is not valid.
+2025-01-23 13:11:17:8726 : EXCEPTION - BindData Error: Specified cast is not valid.
+2025-01-23 14:15:29:7056 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 14:15:42:9063 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 14:26:39:7418 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 14:26:48:4157 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 14:28:25:5018 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 14:28:29:8858 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 14:30:15:7614 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 14:31:49:1448 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 14:32:31:6336 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 14:47:13:4126 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 14:47:16:4630 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 14:52:44:0874 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:52:46:7655 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 14:52:49:8754 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:52:50:4021 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 14:52:53:4551 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:52:54:8970 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:52:58:8822 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:52:59:8957 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:04:8735 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:05:8694 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:10:8764 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:10:9076 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:11:8790 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:11:8790 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:11:8790 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:11:8946 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:11:9115 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:11:9418 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:15:8794 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:16:8764 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:21:8815 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:21:8938 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:26:8822 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:26:9054 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:32:8800 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:32:8992 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:37:8708 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:38:8723 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:42:8995 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:48:8839 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:53:8856 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:53:58:8906 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:04:8836 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:09:8877 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:11:8838 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:11:8838 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:11:8838 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:11:8838 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:11:8838 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:11:8994 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:11:9152 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:14:8822 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:20:8749 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:25:8898 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:31:8806 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:36:8847 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.WebControls.Label'.
+2025-01-23 14:54:46:8212 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.HtmlControls.HtmlGenericControl'.
+2025-01-23 14:54:48:9014 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.HtmlControls.HtmlGenericControl'.
+2025-01-23 14:54:49:0093 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 14:54:52:4314 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 14:54:54:9739 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.HtmlControls.HtmlGenericControl'.
+2025-01-23 14:54:56:1405 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.HtmlControls.HtmlGenericControl'.
+2025-01-23 14:54:59:8900 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.HtmlControls.HtmlGenericControl'.
+2025-01-23 14:55:01:9157 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.HtmlControls.HtmlGenericControl'.
+2025-01-23 14:55:05:9321 : EXCEPTION - BindRow Error: Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlTableCell' to type 'System.Web.UI.HtmlControls.HtmlGenericControl'.
+2025-01-23 14:59:40:4204 : EXCEPTION - BindRow Error: Object reference not set to an instance of an object.
+2025-01-23 15:08:02:2924 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:08:13:5261 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:08:18:5730 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:08:24:5464 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:08:29:5475 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:08:36:0786 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:08:43:4201 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:08:46:9475 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:08:54:5518 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:08:58:1332 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:09:44:9142 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:10:30:8596 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:10:32:4918 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:11:12:3666 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:11:41:0340 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:11:59:1942 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:12:03:7697 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:12:20:0151 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:12:25:0902 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:12:34:7631 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:12:39:6615 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:12:46:6591 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:13:08:0773 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:13:20:6385 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:13:29:2203 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:27:30:2209 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:27:32:4845 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:27:40:3460 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:27:43:9908 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:31:45:4479 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:31:48:9980 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:33:56:7410 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:33:58:9534 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:39:41:9568 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:39:46:2827 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:39:55:7013 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:39:59:0263 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:40:04:9870 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:40:06:5669 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:40:15:0498 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:40:22:6358 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:41:16:7411 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:41:18:2032 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:48:45:4706 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:48:49:5165 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:48:56:3296 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:49:01:9481 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:49:18:6593 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:49:20:3730 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:52:27:6835 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 15:52:35:3176 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 15:53:09:9407 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 16:03:51:6117 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 16:03:53:5348 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 16:32:38:6380 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 16:32:42:7549 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 16:32:49:0879 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 16:32:54:8721 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 16:33:37:7919 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 16:33:39:3851 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:00:08:5902 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:00:19:2685 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:00:24:7548 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:06:31:2518 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:06:55:4570 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:07:04:5927 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:07:13:7156 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:11:23:5449 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:11:32:9455 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:12:12:9014 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:23:38:3862 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:25:20:3246 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:25:30:0893 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:25:54:2829 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:26:40:1351 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:26:45:0754 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:26:50:0719 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:28:19:8921 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:28:25:6022 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:28:29:5830 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:28:54:1184 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:29:01:5598 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:32:27:5230 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:37:01:5077 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:37:05:3950 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:37:10:0835 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:37:45:2413 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:39:02:3938 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:39:15:6944 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:39:23:0411 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:39:34:3783 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:39:46:1587 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:39:55:8859 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:41:03:2596 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:41:34:6479 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:41:53:2096 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:42:25:9416 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:42:34:5299 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:46:54:1827 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:47:06:8207 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.
+2025-01-23 17:47:12:1103 : EXCEPTION - ImageButton1_Click : Thread was being aborted.
+2025-01-23 17:47:15:8914 : EXCEPTION - Redirect_to_Charts_2.aspx : Thread was being aborted.

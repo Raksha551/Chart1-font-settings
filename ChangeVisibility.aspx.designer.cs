@@ -11,7 +11,7 @@ namespace Task1_Black_Screen
 {
 
 
-    public partial class BlackScreen
+    public partial class ChangeVisibility
     {
 
         /// <summary>
@@ -24,121 +24,76 @@ namespace Task1_Black_Screen
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// currentDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label currentDate;
-
-        /// <summary>
-        /// ImageButton1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
-
-        /// <summary>
-        /// Timer1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.Timer Timer1;
-
-        /// <summary>
-        /// UpdatePanel1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel1;
-
-        /// <summary>
         /// statusTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl statusTitle;
+        protected global::System.Web.UI.WebControls.CheckBox statusTitle;
 
         /// <summary>
-        /// shiftTitle control.
+        /// shift control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl shiftTitle;
+        protected global::System.Web.UI.WebControls.CheckBox shift;
 
         /// <summary>
-        /// dayOutputTitle control.
+        /// Day control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dayOutputTitle;
+        protected global::System.Web.UI.WebControls.CheckBox Day;
 
         /// <summary>
-        /// MonthtoDateTitle control.
+        /// Month control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl MonthtoDateTitle;
+        protected global::System.Web.UI.WebControls.CheckBox Month;
 
         /// <summary>
-        /// OEETitle control.
+        /// OEE control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl OEETitle;
+        protected global::System.Web.UI.WebControls.CheckBox OEE;
 
         /// <summary>
-        /// PowerTitle control.
+        /// power control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl PowerTitle;
+        protected global::System.Web.UI.WebControls.CheckBox power;
 
         /// <summary>
-        /// IdleTitle control.
+        /// idle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl IdleTitle;
+        protected global::System.Web.UI.WebControls.CheckBox idle;
 
         /// <summary>
-        /// RejectionTitle control.
+        /// rejection control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl RejectionTitle;
-
-        /// <summary>
-        /// downtimeTitle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl downtimeTitle;
+        protected global::System.Web.UI.WebControls.CheckBox rejection;
 
         /// <summary>
         /// downtime control.
@@ -147,15 +102,24 @@ namespace Task1_Black_Screen
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label downtime;
+        protected global::System.Web.UI.WebControls.CheckBox downtime;
 
         /// <summary>
-        /// listview1 control.
+        /// submitbtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView listview1;
+        protected global::System.Web.UI.WebControls.Button submitbtn;
+
+        /// <summary>
+        /// Updatebtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Updatebtn;
     }
 }
